@@ -1,6 +1,5 @@
 CREATE TABLE spending (
-	id INT PRIMARY KEY,
- 	"Country" TEXT,
+ 	"Country" TEXT PRIMARY KEY,
  	"1990_Spend" VARCHAR(30),
 	"1991_Spend" VARCHAR(30),
 	"1992_Spend" VARCHAR(30),
@@ -32,8 +31,7 @@ CREATE TABLE spending (
 	
 );
 CREATE TABLE gdp (
-	id INT PRIMARY KEY,
- 	"Country" TEXT,
+ 	"Country" TEXT PRIMARY KEY,
  	"1990_GDP" VARCHAR(20),
 	"1991_GDP" VARCHAR(20),
 	"1992_GDP" VARCHAR(20),
@@ -98,4 +96,4 @@ CREATE TABLE population (
 	
 );
 
-
+select * from population
